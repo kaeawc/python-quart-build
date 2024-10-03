@@ -1,0 +1,5 @@
+<testsuite name="nose2-junit" errors="0" failures="0" skipped="0" tests="1" time="0.006">
+  <testcase timestamp="2024-10-03T21:33:40.121623" time="0.005781" classname="test_main.StatusEndpointTestCase" name="test_status_endpoint">
+    <system-out>root: DEBUG: Status endpoint was accessed</system-out>
+    </testcase>
+  </testsuite>

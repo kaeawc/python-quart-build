@@ -2,7 +2,7 @@
 
 # Python Quart Build
 
-Experimental Python build tooling, references, and CI pipeline for a Python Quart web server. The goal is to showcase best practices as well as be a good foundation for starting out a new Flask project.
+Experimental Python build tooling, references, and CI pipeline for a Python Quart web server. The goal is to showcase best practices as well as be a good foundation for starting out a new Quart project.
 
 # Getting setup
 

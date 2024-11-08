@@ -6,12 +6,12 @@ Experimental Python build tooling, references, and CI pipeline for a Python Quar
 
 # Getting setup
 
-To get started you should create a virtual environment.
+To get started you should create a virtual environment with uv.
 
 ```bash
-python3 -m venv .venv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv sync
 .venv/bin/activate
-pip install -r requirements.txt
 ```
 
 # Running code analysis locally

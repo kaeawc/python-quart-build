@@ -100,7 +100,7 @@ jobs:
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
 
       - name: "Build Docker image"
-        run: docker build -f ci/Dockerfile -t ghcr.io/${{ github.repository_owner }}/python-build:latest .
+        run: docker build -f ci/Dockerfile -t ghcr.io/${{ github.repository_owner }}/python-quart-build:latest .
 
       - name: "Push Docker image"
-        run: docker push ghcr.io/${{ github.repository_owner }}/python-build:latest
+        run: docker push ghcr.io/${{ github.repository_owner }}/python-quart-build:latest

@@ -17,7 +17,7 @@ setup(
         "ipdb==0.13.13",
         "mock==5.1.0",
         "nose2==0.15.1",
-        "numpy==2.2.0",
+        "numpy==2.2.1",
         "pycodestyle==2.12.1",
         "PyYaml==6.0.2",
         "quart-cors==0.7.0",

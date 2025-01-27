@@ -23,6 +23,6 @@ setup(
         "quart-cors==0.8.0",
         "Quart==0.20.0",
         "requests==2.32.3",
-        "tox==4.23.2",
+        "tox==4.24.1",
     ],
     zip_safe=False)

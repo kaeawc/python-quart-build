@@ -20,7 +20,7 @@ setup(
         "numpy==2.2.4",
         "pycodestyle==2.13.0",
         "PyYaml==6.0.2",
-        "quart-cors==0.7.0",
+        "quart-cors==0.8.0",
         "Quart==0.20.0",
         "requests==2.32.3",
         "tox==4.25.0",

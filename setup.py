@@ -18,7 +18,7 @@ setup(
         "mock==5.2.0",
         "nose2==0.15.1",
         "numpy==2.2.6",
-        "pycodestyle==2.13.0",
+        "pycodestyle==2.14.0",
         "PyYaml==6.0.2",
         "quart-cors==0.8.0",
         "Quart==0.20.0",

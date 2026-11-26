@@ -1,9 +1,9 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.10"
 resolution-markers = [
-    "python_full_version < '3.11'",
     "python_full_version >= '3.11'",
+    "python_full_version < '3.11'",
 ]
 
 [[package]]
@@ -849,7 +849,7 @@ name = "taskgroup"
 version = "0.0.0a4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "exceptiongroup", marker = "python_full_version < '3.11'" },
+    { name = "exceptiongroup" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/0a/40/02753c40fa30dfdde7567c1daeefbf957dcf8c99e6534a80afb438adf07e/taskgroup-0.0.0a4.tar.gz", hash = "sha256:eb08902d221e27661950f2a0320ddf3f939f579279996f81fe30779bca3a159c", size = 8553, upload-time = "2022-07-28T16:16:13.124Z" }
 wheels = [
@@ -960,14 +960,14 @@ wheels = [
 
 [[package]]
 name = "werkzeug"
-version = "3.1.2"
+version = "3.1.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "markupsafe" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9f/e7/58868f1a95bd6f2ffa0a26af212675fb74be2a4c4bfa3541077b0ca14ad3/werkzeug-3.1.2.tar.gz", hash = "sha256:f471a4cd167233077e9d2a8190c3471c5bc520c636a9e3c1e9300c33bced03bc", size = 806496, upload-time = "2024-11-04T17:35:35.458Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a4/34/4dd12fc8bb7d61c91467ec3efe415ffa7d5456f799954b40c5bbaeae470e/werkzeug-3.1.9.tar.gz", hash = "sha256:55ca7c70a75689be937aa27f8ff4b018f06ff4838fc73045560bf0f5a1291060", size = 940188, upload-time = "2026-09-27T18:33:41.637Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cb/ff/107697c9d5ca486c4a97e51be036d521ba08a70747c5e9fa1f4729240854/werkzeug-3.1.2-py3-none-any.whl", hash = "sha256:4f7d1a5de312c810a8a2c6f0b47e9f6a7cffb7c8322def35e4d4d9841ff85597", size = 224352, upload-time = "2024-11-04T17:35:33.615Z" },
+    { url = "https://files.pythonhosted.org/packages/a1/38/df03f564f43cec2684823f3cccae1a652ee7face1cbaa76fb223096e64d7/werkzeug-3.1.9-py3-none-any.whl", hash = "sha256:6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab", size = 228700, upload-time = "2026-09-27T18:33:39.685Z" },
 ]
 
 [[package]]

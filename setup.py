@@ -22,7 +22,7 @@ setup(
         "PyYaml==6.0.3",
         "quart-cors==0.8.0",
         "Quart==0.20.0",
-        "requests==2.32.5",
+        "requests==2.34.2",
         "tox==4.51.0",
     ],
     zip_safe=False)

@@ -19,7 +19,7 @@ setup(
         "nose2==0.16.0",
         "numpy==2.2.6",
         "pycodestyle==2.14.0",
-        "PyYaml==6.0.3",
+        "PyYaml==6.0.4",
         "quart-cors==0.8.0",
         "Quart==0.20.0",
         "requests==2.34.2",
